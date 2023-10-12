@@ -1,0 +1,37 @@
+.links {
+    background-color: turquoise;
+    font-size: larger;
+    position: absolute;
+    top: 0px;
+    padding: 30px;
+    left: 50px;
+}
+
+
+.rechts{
+    background-color: green;
+    font-size: large;
+    position: absolute;
+    top: 0px;
+    padding: 30px;
+    right: 50px;
+}
+
+#right{
+    background-color: rgb(255, 0, 157);
+    font-size: large;
+    position: absolute;
+    bottom: 0px;
+    padding: 30px;
+    right: 50px;
+}
+
+#links{
+    background-color: rgb(0, 255, 55);
+    font-size: large;
+    position: absolute;
+    bottom: 0px;
+    padding: 30px;
+    left: 50px;
+}
+
