@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            background-image: linear-gradient(to rightc, red, white);
+        }
+
+
+        .box{
+            background-color: black;
+            margin-left: 20px;
+            margin-top: -15px;
+            height: 50px;
+            width: 50px;
+            position: fixed;
+            z-index: 100;
+
+            
+        }
+
+        .blue{
+            background-color: blue;
+            height: 400px;
+            width: 200px;
+            margin: 40px;
+            position: relative;
+        }
+
+        .green{
+            background-color: green;
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+
+
+        .flexbox{
+            display: flex;
+           background-color: transparent;
+           border-style: solid;
+           flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            align-items: center;
+        }
+
+        .first{
+            background-color: green;
+            height: 20px;
+            width: 40px;
+            padding: 20px;
+            align-items: center;
+        }
+
+        .second{
+            background-color: green;
+            height: 20px;
+            width: 40px;
+            padding: 20px;
+            align-items: center;
+        }
+
+        .third{
+            background-color: green;
+            height: 20px;
+            width: 40px;
+            padding: 20px;
+            align-items: center;
+        }
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+    
+    <div class="box"></div>
+    <div class="blue">
+        <div class="green"></div>
+    </div>
+
+    <div class="flexbox">
+
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="third"></div>
+    </div>
+
+
+
+</body>
+</html>
