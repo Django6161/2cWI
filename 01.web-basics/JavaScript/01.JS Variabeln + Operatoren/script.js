@@ -30,7 +30,7 @@ console.log("A hat den Wert " +  a);
 a = 10;
 console.log("A hat den Wert " +  a);
 
-console.log("Hallo");
+console.log("Hall");
 console.log("Tolle Sache");
 
 console.log(a + b + c);
