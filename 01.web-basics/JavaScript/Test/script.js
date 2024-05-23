@@ -1,15 +1,15 @@
-const temparaturesWeek1 = -1 + 5 + 1 + -10 + -11 + 2 + 30 + -8 + -14;
-const temparaturesWeek2 = -1 + 5 + 3 + -10 + -11 + 2 + 30 + -8 + -44;
+const data3 = "4, 9, -3, -9, -5, 10, 2, 1, 14";
 
-console.log("Mittelwert 1. Woche: " + temparaturesWeek1 / 9);
+let sum1 = 0;
+let numbers1 = data3.split(",");
 
-console.log("Mittelwert 2. Woche: " + temparaturesWeek2 / 9);
+for (let i = 0; i < numbers1.length; i++) {
+  if (numbers1[i] > 0) {
+    sum1 = sum1 + parseInt(numbers1[i]);
+  }
+}
 
-console.log("Woche 1 war wärmer.");
+let posMittelwert = sum1 / numbers1.length;
 
-const data = "Hans geht heute schwimmen! Das ist gut.";
-console.log(data.slice(0, 4));
-console.log(data.slice(16, 25));
-console.log(data.slice(35, 38));
-
-const numbers = "8,2,1,4,6,11,8,7";
+console.log(sum1);
+console.log(posMittelwert);
