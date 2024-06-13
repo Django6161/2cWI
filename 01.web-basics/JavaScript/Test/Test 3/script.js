@@ -22,7 +22,7 @@ let numbers = data1.split(",");
 
 for (let i = 0; i < numbers.length; i++) {
   if (numbers[i] % 2 == 0 && numbers[i] < 0) {
-    console.log("num", numbers[i]);
+    console.log(numbers[i]);
     sum = sum + parseInt(numbers[i]);
   }
   Mittelwert = sum / numbers[i].length;
